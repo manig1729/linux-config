@@ -1,3 +1,7 @@
+# file location : ~/.bashrc
+# additions - some aliases and functions
+# 			- prompt has also been changed
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -133,6 +137,11 @@ fi
  verilog()
  {
      iverilog -o "$1".vvp "$1".v && vvp "$1".vvp && gtkwave "$1".vcd
+ }
+
+ githubconfig()
+ {
+	 cp ~/.bashrc ~/programming/github/linux-config/bashrc && cp ~/.vimrc ~/programming/github/linux-config/vimrc && cp ~/.config/i3/config ~/programming/github/linux-config/i3-config && cp ~/.config/i3status/config ~/programming/github/linux-config/i3status-config
  }
 
 export PROMPT_DIRTRIM=1

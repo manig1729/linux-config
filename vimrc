@@ -1,3 +1,11 @@
+" file location - ~/.vimrc
+"
+" additions - self explanatory
+"
+" dependencies 	- vim-plug
+" 				- plugins
+" 				- zathura pdf viewer
+
 set number
 
 " vim-plug section

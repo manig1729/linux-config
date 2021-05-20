@@ -1,3 +1,9 @@
+# file location : ~/.config/i3status/config
+#
+# additions - logo changes, made the whole thing a bit compact, temperature
+#
+# dependencies - fontawesome
+
 # i3status configuration file.
 # see "man i3status" for documentation.
 
