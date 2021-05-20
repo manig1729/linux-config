@@ -1,0 +1,1 @@
+/home/manikandan/.bashrc
