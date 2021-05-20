@@ -7,6 +7,7 @@
 " 				- zathura pdf viewer
 
 set number
+" colorscheme desert
 
 " vim-plug section
 call plug#begin('~/.vim/plugged')
@@ -24,6 +25,6 @@ let g:livepreview_previewer = 'zathura'
 " tab space
 set ts=4 sw=4
 
-" autocmd vimenter * ++nested colorscheme gruvbox
 " set background=dark
-" let g:gruvbox_transparent_bg = '1'
+" let g:gruvbox_transparent_bg=1
+" autocmd vimenter * ++nested colorscheme gruvbox
