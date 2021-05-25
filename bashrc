@@ -123,6 +123,7 @@ fi
 # Custom aliases
  alias i3config='vim ~/.config/i3/config'
  alias github='cd ~/programming/github && ls -la'
+ alias spotifyd='cd && ./spotifyd/target/release/spotifyd'
 
  mkcd ()
  {
