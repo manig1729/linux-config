@@ -28,3 +28,6 @@ set ts=4 sw=4
 " set background=dark
 " let g:gruvbox_transparent_bg=1
 " autocmd vimenter * ++nested colorscheme gruvbox
+
+:autocmd BufNewFile *.c 0r ~/.vim/templates/skeleton.c
+:autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
