@@ -30,4 +30,5 @@ githubconfig()
 	cp ~/.config/aliasrc ~/programming/github/linux-config/.config/aliasrc
 	cp ~/.zshrc ~/programming/github/linux-config/.zshrc
 	cp ~/.newsboat/config ~/programming/github/linux-config/.newsboat/config
+	cp ~/.config/redshift.conf ~/programming/github/linux-config/.config/redshift.conf
 }
