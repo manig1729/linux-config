@@ -1,28 +1,38 @@
 # Location : .config/aliasrc
 
 # Custom aliases
- alias i3config='vim ~/.config/i3/config'
- alias github='cd ~/programming/github && ls -la'
+alias i3config='vim ~/.config/i3/config'
+alias github='cd ~/programming/github && ls -la'
 # alias spotifyd='cd && ./spotifyd/target/release/spotifyd'
- alias nb='newsboat'
+alias nb='newsboat'
 
- mkcd ()
- {
-     mkdir -p -- "$1" && cd -P -- "$1"
- }
+mkcd ()
+{
+    mkdir -p -- "$1" && cd -P -- "$1"
+}
 
- runverilog ()
- {
-     iverilog -o "$1".vvp "$1".v && vvp "$1".vvp
- }
+runverilog ()
+{
+    iverilog -o "$1".vvp "$1".v && vvp "$1".vvp
+}
 
- verilog()
- {
-     iverilog -o "$1".vvp "$1".v && vvp "$1".vvp && gtkwave "$1".vcd
- }
+verilog()
+{
+    iverilog -o "$1".vvp "$1".v && vvp "$1".vvp && gtkwave "$1".vcd
+}
 
- githubconfig()
- {
-     cp ~/.bashrc ~/programming/github/linux-config/bashrc && cp ~/.vimrc ~/programming/github/linux-config/vimrc && cp ~/.config/i3/config ~/programming/github/linux-config/i3-config && cp ~/.config/i3status/config ~/programming/github/linux-config/i3status-config && cp ~/.config/aliasrc ~/programming/github/linux-config/aliasrc && cp ~/.zshrc ~/programming/github/linux-config/zshrc
- }
+# githubconfig()
+# {
+#    cp ~/.bashrc ~/programming/github/linux-config/bashrc && cp ~/.vimrc ~/programming/github/linux-config/vimrc && cp ~/.config/i3/config ~/programming/github/linux-config/i3-config && cp ~/.config/i3status/config ~/programming/github/linux-config/i3status-config && cp ~/.config/aliasrc ~/programming/github/linux-config/aliasrc && cp ~/.zshrc ~/programming/github/linux-config/zshrc && cp ~/.newsboat/config ~/programming/github/linux-config/newsboat-config
+# }
 
+githubconfig()
+{
+    cp ~/.bashrc ~/programming/github/linux-config/bashrc
+	cp ~/.vimrc ~/programming/github/linux-config/vimrc
+	cp ~/.config/i3/config ~/programming/github/linux-config/i3-config
+	cp ~/.config/i3status/config ~/programming/github/linux-config/i3status-config
+	cp ~/.config/aliasrc ~/programming/github/linux-config/aliasrc
+	cp ~/.zshrc ~/programming/github/linux-config/zshrc
+	cp ~/.newsboat/config ~/programming/github/linux-config/newsboat-config
+}
