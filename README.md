@@ -14,6 +14,7 @@ The programs that use them or they need, in no particular order, are as follows 
 - `compton` : Terminal transparency in i3
 - `zsh` : Shell program
 - `vlc` and `mpv` : Video players
+- `cmus` : Terminal based music player
 - `newsboat` : RSS feed viewer from the terminal
 - `iverilog` : Compile and run Verilog code
 - `gtkwave` : View output waveforms of aforementioned verilog code
