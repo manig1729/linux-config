@@ -5,7 +5,7 @@
 max-items 25
 
 # podboat
-player "vlc"
+player "cmus"
 
 # unbind keys
 unbind-key j
