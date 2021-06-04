@@ -25,3 +25,4 @@ The programs that use them or they need, in no particular order, are as follows 
 - `arandr` : GUI program to configure displays and screens
 - `zathura` : Minimal PDF reader with VIM keybindings
 - `nnn` : Terminal based file explorer with VIM keybindings
+- `xournal` : Note-taking app which supports pen tablets
