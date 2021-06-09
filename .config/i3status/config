@@ -15,19 +15,33 @@
 general {
         colors = true
         interval = 5
+		#color_good = "#b8bb26"
+		#color_degraded = "#fabd2f"
+		#color_bad = "#fb4934"
+		#color_separator = "#928374"
 }
 
 # order += "ipv6"
+order += "battery all"
 order += "volume master"
 order += "wireless _first_"
 # order += "ethernet _first_"
-order += "battery all"
 order += "disk /" 
 order += "cpu_usage"
 order += "cpu_temperature 0"
 order += "load"
 order += "memory"
 order += "tztime local"
+	
+battery all {
+	last_full_capacity = true
+	integer_battery_capacity = true
+        format = "%status %percentage Rem-%remaining"
+	status_chr = ""
+	status_bat = ""
+	low_threshold = "20"
+	threshold_type = "percentage"
+}
 
 volume master {
 	format = " %volume"
@@ -45,16 +59,6 @@ wireless _first_ {
 #        format_up = "E: %ip (%speed)"
 #        format_down = "E: down"
 #}
-
-battery all {
-	last_full_capacity = true
-	integer_battery_capacity = true
-        format = "%status %percentage Rem-%remaining"
-	status_chr = ""
-	status_bat = ""
-	low_threshold = "20"
-	threshold_type = "percentage"
-}
 
 disk "/" {
         #format = "%avail"
