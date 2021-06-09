@@ -118,16 +118,16 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1 : Terminals "
+set $ws1 "1 : Terminal "
 set $ws2 "2 : Browser "
-set $ws3 "3 : Coding "
-set $ws4 "4 : Video "
-set $ws5 "5 : PDF-Viewer "
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10 : Music "
+set $ws3 "3 : RSS " 
+set $ws4 "4 : Video "
+set $ws5 "5 : Coding "
+set $ws6 "6 : PDF "
+set $ws7 "7 : Misc "
+set $ws8 "8 : Misc "
+set $ws9 "9 : Misc "
+set $ws10 "10 : Music "
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -154,7 +154,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 for_window [class="Spotify"] move to workspace $ws10
-for_window [class="Code"] move to workspace $ws3
+for_window [class="Code"] move to workspace $ws5
 # for_window [class="Evince"] move to workspace $ws4 
 # for_window [class="Zathura"] move to workspace $ws4
 # for_window [class="Firefox"] move to workspace $ws2
