@@ -1,6 +1,6 @@
 # Linux config files
 
-These are my random config files which I store here in case I lose them or change machines
+These are my random config files which I store here in case I lose / break them or change machines
 
 The programs that use them or they need, in no particular order, are as follows : 
 - `vim` : Text editor, run PlugInstall to install the plugins in vimrc
@@ -23,6 +23,6 @@ The programs that use them or they need, in no particular order, are as follows 
   - Note that mutt-wizard has further dependencies : `neomutt`, `curl`, `isync`, `msmtp`, `pass`, and `gpg`
 - `youtube-dl` and `ffmpeg` : Download / Stream YouTube videos from local video players
 - `arandr` : GUI program to configure displays and screens
-- `zathura` : Minimal PDF reader with VIM keybindings
+- `zathura` : Minimalist PDF reader with VIM keybindings
 - `nnn` : Terminal based file explorer with VIM keybindings
 - `xournal` : Note-taking app which supports pen tablets
