@@ -155,6 +155,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 for_window [class="Spotify"] move to workspace $ws10
 for_window [class="Code"] move to workspace $ws5
+for_window [class="vlc"] move to workspace $ws4
+for_window [class="mpv"] move to workspace $ws4
 # for_window [class="Evince"] move to workspace $ws4 
 # for_window [class="Zathura"] move to workspace $ws4
 # for_window [class="Firefox"] move to workspace $ws2
