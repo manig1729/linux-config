@@ -241,6 +241,9 @@ bindsym $mod+f exec firefox
 # VSCode shortcut
 bindsym $mod+c exec code
 
+# Nautilus shortcut
+bindsym $mod+n exec nautilus
+
 # Automute
 exec amixer -c 0 cset numid=5 1
 
