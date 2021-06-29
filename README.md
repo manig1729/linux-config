@@ -1,6 +1,6 @@
 # Linux config files
 
-These are my random config files which I store here in case I lose / break them or change machines
+These are my Ubuntu 20.04 dotfiles
 
 They are arranged in the same directory structure as they would be in an actual install
 
