@@ -34,7 +34,7 @@ sudo ./scripts/setup.sh
 `apt upgrade` is called towards the end of the script to make sure the programs installed are up-to-date. This can make the installation take a long time. Comment out the line from scripts/setup.sh if it is not needed
 
 ### Notes
-- dotfiles may sometimes not be copied. Try to change ${HOME} to ~ in dotfiles.sh
+- dotfiles may sometimes not be copied. Try to change ${HOME} to ~ in dotfiles.sh and run `./dotfiles.sh` separately
 - Reboot into i3 after installation is finished
 - There may be problems with i3-gaps in installation. In that case, install it after rebooting into i3. [GitHub](https://github.com/Airblader/i3)
 - muttwizard, iverilog and GTKWave are not included in the install scripts, they can be installed manually later
