@@ -1,0 +1,110 @@
+" "
+"---WEBSITES---"
+http://feeds.feedburner.com/StudyHacks "~Cal Newport blog" blog
+https://xkcd.com/rss.xml "~xkcd.com" blog comics
+https://lukesmith.xyz/rss.xml "~Luke Smith blog" blog
+https://www.howtogeek.com/feed/ "~How-To Geek blog" blog
+https://www.vox.com/rss/index.xml "~Vox - All" news
+https://www.theverge.com/science/rss/index.xml "~The Verge - Science" blog news
+https://www.theverge.com/tech/rss/index.xml "~The Verge - Tech" blog news
+http://feeds.nature.com/nature/rss/current "~nature.com science feed" news nature
+" "
+"---CRICKET NEWS---"
+https://www.cricviz.com/feed/ "~Cricviz blog" blog cricket
+https://www.espncricinfo.com/rss/content/story/feeds/6.xml "~India news (Cricinfo)" news cricket
+https://www.espncricinfo.com/rss/content/story/feeds/1.xml "~England news (Cricinfo)" news cricket
+https://www.espncricinfo.com/rss/content/story/feeds/2.xml "~Australia news (Cricinfo)" news cricket
+https://www.espncricinfo.com/rss/content/story/feeds/1244186.xml "~County Championship 2021 news (Cricinfo)" news cricket
+http://static.cricinfo.com/rss/livescores.xml "~Live scores (Cricinfo)" cricket
+" "
+"---PODCASTS---"
+http://feeds.soundcloud.com/users/soundcloud:users:341034518/sounds.rss "~Wisden Cricket Weekly (Podcast)" podcast cricket
+https://rss.whooshkaa.com/rss/podcast/id/1308 "~The Grade Cricketer (Podcast)" podcast cricket
+https://feeds.simplecast.com/9YNI3WaL "~Dear Hank and John (Podcast)" podcast
+https://feeds.buzzsprout.com/1391323.rss "~Golden Ducks (Podcast)" podcast cricket
+https://podcasts.files.bbci.co.uk/p02pcb4w.rss "~Tailenders (Podcast)" cricket podcast 
+https://notrelated.xyz/rss "~Not Related! (Podcast)" podcast
+" "
+"---REDDIT---"
+https://www.reddit.com/r/Cricket.rss "~r/Cricket" reddit cricket
+https://www.reddit.com/r/formula1.rss "~r/formula1" reddit f1
+https://www.reddit.com/r/YouShouldKnow.rss "~r/YouShouldKnow" reddit
+https://www.reddit.com/r/copypasta.rss "~r/copypasta" reddit
+" "
+"---VIDEOS : SPORTS---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCB_qr75-ydFVKSF9Dmo6izg "~Formula 1 (YouTube)" youtube f1
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7u-Dg0jb7g9s7XjmtJrtpg "~Chain Bear (YouTube)" youtube f1
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtbLA0YM6EpwUQhFUyPQU9Q "~Driver61 (YouTube)" youtube f1
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDxm-FbK9nmZKqHI19j-DOw "~WTF1 (YouTube)" youtube f1
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7_VGkwCoKfqh1eZEkzey3A "~Mercedes F1 Team (YouTube)" youtube f1
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgxAV5Px6mAlbjh0-AU9xIA "~Jarrod Kimber (YouTube)" youtube cricket
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEiCmSMqNJ-qqeW9fEUcA4g "~The Grade Cricketer (YouTube)" youtube cricket
+https://www.youtube.com/feeds/videos.xml?channel_id=UCd5WxLFvKjEbJl5xyUqyHSw "~Weightlifting House (YouTube)" youtube weightlifting
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSyByWwlEi4BWzjCdJCQEDA "~Clarence0 (YouTube)" youtube weightlifting
+" "
+"---VIDEOS : NATURE---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzR-rom72PHN9Zg7RML9EbA "~PBS Eons (YouTube)" youtube nature
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwg6_F2hDHYrqbNSGjmar4w "~Animalogic (YouTube)" youtube nature
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG5_BraUMNcluZPZ__oOeKg "~Natural World Facts (YouTube)" youtube nature
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMMe19DcsqMHzNqeTltR5hw "~Jartopia (YouTube)" youtube nature
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkOTo20XS1LL95g2p6CcE3A "~Just a Few Acres Farm (Youtube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-GM0ZytN8V5wD4QwNdhvmg "~Farmer Tyler Ranch (YouTube)" youtube
+" "
+"---VIDEOS : GAMING---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCto7D1L-MiRoOziCXK9uT5Q "~Let's Game It Out (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfoK9LI9vmQQ36zqsFZtNJQ "~Airforceproud95 (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC72PuhDwKtZ5MikpGNhPAtA "~TGG (YouTube)" youtube gtav
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9FkeEFIGd9FXRfxpTltXYA "~Luke TheNotable (YouTube)" youtube minecraft
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLAnJ4ZuTYaeG7BJ_1CnpvkifZ81dlCAjP "~DarkViperAU - Facts and Glitches (YouTube)" youtube gtav
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLAnJ4ZuTYaeG-uBQrAnS-pjzHT41G8lwt "~DarkViperAU - Pacifist % (YouTube)" youtube gtav
+https://www.youtube.com/feeds/videos.xml?channel_id=UChFur_NwVSbUozOcF_F2kMg "~Mumbo Jumbo (YouTube)" youtube minecraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCU9pX8hKcrx06XfOB-VQLdw "~xisumavoid (YouTube)" youtube minecraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCq-9jiz3k4LP6F39pZoq8MQ "~PythonMC (YouTube)" youtube minecraft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCACwLoQEIW6qu1k4Nv1cQig "~Lueroi (YouTube)" youtube pokemon
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7WNZQb14M9X6whT6WMsWoQ "~Tiametmarduk (YouTube)" youtube f1
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeP4Yv3s4RvS0-6d9OInRMw "~Real Civil Engineer (YouTube)" youtube f1
+" "
+"---VIDEOS : SCIENCE & EDUCATION---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q "~Kurzgesagt (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6nSFpj9HTCZ5t-N3Rm3-HA "~VSauce (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA "~Veritasium (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEIwxahdLz7bap-VDs9h35A "~Steve Mould (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSju5G2aFaWMqn-_0YBtq5A "~Stand-up Maths (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCH4BNI0-FOK2dMXoFtViWHw "~It's Okay To Be Smart (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR1IuLEqb6UEA_zQ81kwXfg "~Real Engineering (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6107grRI4m0o2-emgoDnAA "~SmarterEveryDay (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC176GAQozKKjhz62H8u9vQQ "~Real Science (YouTube)" youtube nature
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2C_jShtL725hvbm1arSV9w "~CGP Grey (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "~3Blue1Brown (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUHW94eEFW7hkUMVaZz4eDg "~minutephysics (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A "~Numberphile (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvBqzzvUBLCs8Y7Axb-jZew "~Sixty Symbols (YouTube)" youtube
+" " 
+"---VIDEOS : GEOGRAPHY & LOGISTICS---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbbQalJ4OaC0oQ0AqRaOJ9g "~Jay Foreman (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuCkxoKLYO_EQ2GeFtbM_bw "~Half as Interesting (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9RM-iSvTu1uPJb8X5yp3EQ "~Wendover Productions (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgNg3vwj3xt7QOrcIDaHdFg "~PolyMatter (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCz1oFxMrgrQ82-276UCOU9w "~Atlas Pro (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcEPmwpXKrKzZahqjwpIAsQ "~WonderWhy (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA "~Vox (YouTube)" youtube
+" "
+"---VIDEOS : ENTERTAINMENT---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC40BaXBRPRrS5TL39kXbnHw "~ColorfulPockets (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0vBXGSyV14uvJ4hECDOl0Q "~Techquickie (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJLZe_NoiG0hT7QCX_9vmqw "~I did a thing (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwkDQ8tE_3UhB8LcnvUv0Fw "~Bosnian Ape Society (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCduKuJToxWPizJ7I2E6n1kA "~BroScienceLife (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCr3cBLTYmIK9kY0F_OdFWFQ "~Casually Explained (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcILXXthGExGeKAQLAIUaFQ "~Pongfinity (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLRWvNQVqAeWJSC9O6-3lIreQRe1vu71jz "~Taskmaster Series 8 (YouTube)" youtube tv-series
+" "
+"---VIDEOS : VLOGS---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGaVdbSav8xWuFWTadK6loA "~vlogbrothers (YouTube)" youtube
+https://lukesmith.xyz/videos "~Luke Smith (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCimiUgDLbi6P17BdaCZpVbg "~exurb1a (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCu6mSoMNzHQiBIOCkHUa2Aw "~Cody'sLab (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ0-OtVpF0wOKEqT2Z1HEtA "~ElectroBOOM (YouTube)" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeE3lj6pLX_gCd0Yvns517Q "~Ozzy Man Reviews (YouTube)" youtube
+" "
+"---***************---"
