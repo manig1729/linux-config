@@ -30,7 +30,7 @@ The programs, in no particular order, are as follows :
 - `w3m` : Text based browser
 - `firefox` : Not so text-based browser
 - `compton` : Terminal transparency in i3
-- `zsh` : Shell program
+- `zsh` : Shell program, make it default using `chsh -s $(which zsh)`
 - `vlc` and `mpv` : Video players
 - `cmus` : Terminal based music player
 - `newsboat` : RSS feed viewer from the terminal
