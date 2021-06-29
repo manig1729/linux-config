@@ -2,7 +2,11 @@
 
 These are my random config files which I store here in case I lose / break them or change machines
 
-The programs that use them or they need, in no particular order, are as follows : 
+They are arranged in the same directory structure as they would be in an actual install
+
+While installing from scratch (I do plan to make an installation script in the future), try to install i3 and i3 gaps first, followed by Font Awesome, and then the remaining programs and the dotfiles
+
+The programs, in no particular order, are as follows : 
 - `vim` : Text editor, run PlugInstall to install the plugins in vimrc
 - `i3` : Window manager
 - `i3-gaps` : [Instructions](https://gist.github.com/manig1729/4fc5a6535202f8195e4b41982e8eb38f)
