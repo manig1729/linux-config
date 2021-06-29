@@ -11,26 +11,26 @@
 	cp ./${1} ${HOME}/${1}
  }
 
-mkdir -p .bar
+mkdir -p ${HOME}/.bar
 copydotfile .bar/inverse-scroll.sh
 
 copydotfile .bashrc
 copydotfile .vimrc
 copydotfile .zshrc
 
-mkdir -p Pictures/Wallpapers
+mkdir -p ${HOME}/Pictures/Wallpapers
 copydotfile Pictures/Wallpapers/bg.png
 
-mkdir -p .config
+mkdir -p ${HOME}/.config
 copydotfile .config/aliasrc
 copydotfile .config/redshift.conf
 
-mkdir -p .config/i3
+mkdir -p ${HOME}/.config/i3
 copydotfile .config/i3/config
 
-mkdir -p .config/i3status
+mkdir -p ${HOME}/.config/i3status
 copydotfile .config/i3status/config
 
-mkdir -p .newsboat
+mkdir -p ${HOME}/.newsboat
 copydotfile .newsboat/config
 copydotfile .newsboat/urls
