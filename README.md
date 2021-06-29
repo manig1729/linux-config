@@ -39,6 +39,7 @@ sudo ./scripts/setup.sh
 - There may be problems with i3-gaps in installation. In that case, install it after rebooting into i3. [GitHub](https://github.com/Airblader/i3)
 - muttwizard, iverilog and GTKWave are not included in the install scripts, they can be installed manually later
 - zsh and .zshrc are installed, but zsh has to be set as the default shell manually after installation
+- The first time you start vim, run `PlugInstall` to install the necessary plugins specified in vimrc
 
 The terminal color scheme will also have to be changed. The colors to be used are the bright variants of the gruvbox theme with these hex values
 - Text default : #D3D7CF
