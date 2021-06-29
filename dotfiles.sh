@@ -4,7 +4,7 @@
 	if [ -f "${1}" ]; then
 		# Existing file
 		echo "Backing up existing file: ${1}"
-		mv ${1} ${1}_backup
+		mv ${HOME}/${1} ${HOME}/${1}_backup
 	fi
 
 	echo "Copying dot file: ${1}"
