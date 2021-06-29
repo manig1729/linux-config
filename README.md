@@ -6,6 +6,20 @@ They are arranged in the same directory structure as they would be in an actual 
 
 While installing from scratch (I do plan to make an installation script in the future), try to install i3 and i3 gaps first, followed by Font Awesome, and then the remaining programs and the dotfiles
 
+The terminal color scheme will also have to be changed. The colors used are the bright variants of the gruvbox theme with these hex values
+- Text default : #D3D7CF
+- Background default : #282828
+- Transparent background : 16%
+- Palette entry 0 : #2E3436
+- Palette entry 8 : #928374
+- Palette entry 1,9 : #FB4934
+- Palette entry 2,10 : #B8BB26
+- Palette entry 3,11 : #FABD2F
+- Palette entry 4,12 : #83A598
+- Palette entry 5,13 : #D3869B
+- Palette entry 6,14 : #8EC07C
+- Palette entry 7,15 : #EBDBB2
+
 The programs, in no particular order, are as follows : 
 - `vim` : Text editor, run PlugInstall to install the plugins in vimrc
 - `i3` : Window manager
