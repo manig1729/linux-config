@@ -1,15 +1,42 @@
-# Linux config files
+# Linux dotfiles and installation scripts
 
-These are my Ubuntu 20.04 dotfiles
+These are my Ubuntu 20.04 dotfiles, arranged in the same directory structure as they would be in an actual install
 
-They are arranged in the same directory structure as they would be in an actual install
+## Installation
+First, you may want to install Font Awesome - [GitHub](https://github.com/FortAwesome/Font-Awesome)
 
-While installing from scratch (I do plan to make an installation script in the future), try to install i3 and i3 gaps first, followed by Font Awesome, and then the remaining programs and the dotfiles
+Clone this repository
+```
+git clone https://github.com/manig1729/linux-config
+```
 
-The terminal color scheme will also have to be changed. The colors used are the bright variants of the gruvbox theme with these hex values
+Then add execute permission to all the scripts in the repository
+```
+cd linux-config
+chmod +x *.sh
+cd scripts
+chmod +x *.sh
+```
+Check the scripts to see which programs you want to install
+
+Run the setup.sh script. It is imperative that you are in the linux-config directory while you run this script as the relative addressing of the files inside has been written with this in mind
+```
+cd ..
+sudo ./scripts/setup.sh
+```
+
+`apt upgrade` is called towards the end of the script to make sure the programs installed are up-to-date. This can make the installation take a long time. Comment out the line from scripts/setup.sh if it is not needed
+
+### Notes
+- Reboot into i3 after installation is finished
+- There may be problems with i3-gaps in installation. In that case, install it after rebooting into i3. [GitHub](https://github.com/Airblader/i3)
+- muttwizard, iverilog and GTKWave are not included in the install scripts, they can be installed manually later
+- zsh and .zshrc are installed, but zsh has to be set as the default shell manually after installation
+
+The terminal color scheme will also have to be changed. The colors to be used are the bright variants of the gruvbox theme with these hex values
 - Text default : #D3D7CF
 - Background default : #282828
-- Transparent background : 16%
+- Transparent background : Around 20%
 - Palette entry 0 : #2E3436
 - Palette entry 8 : #928374
 - Palette entry 1,9 : #FB4934
@@ -20,7 +47,7 @@ The terminal color scheme will also have to be changed. The colors used are the 
 - Palette entry 6,14 : #8EC07C
 - Palette entry 7,15 : #EBDBB2
 
-The programs, in no particular order, are as follows : 
+## Programs Installed
 - `vim` : Text editor, run PlugInstall to install the plugins in vimrc
 - `i3` : Window manager
 - `i3-gaps` : [Instructions](https://gist.github.com/manig1729/4fc5a6535202f8195e4b41982e8eb38f)
