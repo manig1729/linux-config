@@ -5,6 +5,13 @@ These are my Ubuntu 20.04 dotfiles, arranged in the same directory structure as 
 ## Installation
 First, you may want to install Font Awesome - [GitHub](https://github.com/FortAwesome/Font-Awesome)
 
+Download the latest release from the Font Awesome GitHub page
+
+Copy the .otf files to `/usr/share/fonts/opentype` then run this command to recreate the fonts cache
+```
+sudo fc-cache -f -v
+```
+
 Clone this repository
 ```
 git clone https://github.com/manig1729/linux-config
