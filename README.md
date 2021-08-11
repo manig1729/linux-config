@@ -5,10 +5,11 @@ These are my Ubuntu 20.04 dotfiles, arranged in the same directory structure as 
 ## Installation
 First, you may want to install Font Awesome - [GitHub](https://github.com/FortAwesome/Font-Awesome)
 
-Also install vim-plug
+Download the latest release from the Font Awesome GitHub page
+
+Copy the .otf files to `/usr/share/fonts/opentype` then run this command to recreate the fonts cache
 ```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+sudo fc-cache -f -v
 ```
 
 Clone this repository
@@ -33,13 +34,19 @@ sudo ./scripts/setup.sh
 
 `apt upgrade` is called towards the end of the script to make sure the programs installed are up-to-date. This can make the installation take a long time. Comment out the line from scripts/setup.sh if it is not needed
 
+Also install vim-plug
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+The first time you start vim, run `PlugInstall` to install the necessary plugins specified in vimrc
+
 ### Notes
-- dotfiles may sometimes not be copied. Try to change ${HOME} to ~ in dotfiles.sh
+- dotfiles may sometimes not be copied. Try to change ${HOME} to ~ in dotfiles.sh and run `./dotfiles.sh` separately
 - Reboot into i3 after installation is finished
 - There may be problems with i3-gaps in installation. In that case, install it after rebooting into i3. [GitHub](https://github.com/Airblader/i3)
 - muttwizard, iverilog and GTKWave are not included in the install scripts, they can be installed manually later
 - zsh and .zshrc are installed, but zsh has to be set as the default shell manually after installation
-- The first time you start vim, run `PlugInstall` to install the necessary plugins specified in vimrc
 
 The terminal color scheme will also have to be changed. The colors to be used are the bright variants of the gruvbox theme with these hex values
 - Text default : #D3D7CF
