@@ -62,7 +62,7 @@ wireless _first_ {
 
 disk "/" {
         #format = "%avail"
-	format = " %avail"
+	format = "M %avail"
 }
 
 cpu_usage {
@@ -79,7 +79,7 @@ load {
 }
 
 memory {
-        format = " %used"
+        format = "R %used"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }

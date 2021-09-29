@@ -125,7 +125,7 @@ set $ws4 "4 : Video "
 set $ws5 "5 : Coding "
 set $ws6 "6 : PDF "
 set $ws7 "7 : Misc "
-set $ws8 "8 : Misc "
+set $ws8 "8 : Misc"
 set $ws9 "9 : Misc "
 set $ws10 "10 : Music "
 
