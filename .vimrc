@@ -48,6 +48,11 @@ set ttimeoutlen=1
 set listchars=tab:>-,trail:~,extends:>,precedes:<,space:.
 set ttyfast
 
+" F5 to compile and run cpp files
+autocmd filetype cpp nnoremap <f5> :w <bar> !g++ -std=c++11 % -o %:r && ./%:r <cr>
+autocmd filetype c nnoremap <f5> :w <bar> !gcc -std=c99 -lm % -o %:r && ./%:r <cr>
+autocmd filetype java nnoremap <f5> :w <bar> !javac % && java -enableassertions %:p <cr>
+
 if has('gui_running')
 	syntax on
 	colorscheme slate
@@ -56,7 +61,8 @@ if has('gui_running')
 	set number
 	set smartindent
 	"set guifont=Fixedsys:h11:cANSI:qDRAFT
-	set guifont=Fixedsys\ Excelsior\ 3.01-L2\ Mono\ 14
+	"set guifont=Fixedsys\ Excelsior\ 3.01-L2\ Mono\ 16
+	set guifont=Consolas\ 15
 	set backspace=indent,eol,start  " more powerful backspacing
 	set guioptions-=m  "menu bar
 	set guioptions-=T  "toolbar
@@ -65,5 +71,5 @@ if has('gui_running')
 	set tabstop=4
 	set shiftwidth=4
 	"set expandtab
-	autocmd filetype cpp nnoremap <f5> :w <bar> !g++ -std=c++11 % -o %:r && %:r <cr>
+	autocmd filetype cpp nnoremap <f5> :w <bar> !g++ -std=c++11 % -o %:r && ./%:r <cr>
 endif
