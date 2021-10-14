@@ -86,3 +86,4 @@ The terminal color scheme will also have to be changed. The colors to be used ar
 - `zathura` : Minimalist PDF reader with VIM keybindings
 - `nnn` : Terminal based file explorer with VIM keybindings
 - `xournal` : Note-taking app which supports pen tablets
+- `maim` and `xclip` : For screenshots and snipping to the clipboard

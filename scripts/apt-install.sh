@@ -37,4 +37,5 @@ install zathura
 install nnn
 install xournal
 install ffmpeg
-
+install maim
+install xclip
